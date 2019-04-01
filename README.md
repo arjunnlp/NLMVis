@@ -17,9 +17,13 @@ Run the baselines in ./baselines
 
 **NB-SVM** (variation of J. Howard's kaggle implementation for multi-label problems)
 
-accuracy_score 0.37060518731988473 
-roc_auc_score 0.7651928012590137 
-hamming_loss 0.22146974063400576
+=======================================
+|accuracy_score | 0.37060518731988473 |
+---------------------------------------
+|roc_auc_score  | 0.7651928012590137  |
+---------------------------------------
+|hamming_loss   | 0.22146974063400576 |
+=======================================
 
 Run main experiments in .
 
