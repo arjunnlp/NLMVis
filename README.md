@@ -13,19 +13,17 @@ Run the baselines in ./baselines
 1) Use notebooks in ./pp for additional preprocessing, if necessary
 2) Run the baselines in the notebooks
 
-### top baseline with no balancing of the data or any special tricks, just base TfIdf:
+Top baseline with no balancing of the data or any special tricks, just base TfIdf is **NB-SVM** (variation of J. Howard's kaggle implementation for multi-label problems):
 
-**NB-SVM** (variation of J. Howard's kaggle implementation for multi-label problems)
+```
+accuracy_score: 0.371
 
----------------------------------------
-|accuracy_score | 0.37060518731988473 |
----------------------------------------
-|roc_auc_score  | 0.7651928012590137  |
----------------------------------------
-|hamming_loss   | 0.22146974063400576 |
----------------------------------------
+roc_auc_score: 0.766
 
-Run main experiments in .
+hamming_loss:   0.221
+```
+
+### Run main experiments in .
 
 1) Preprocess using respective notebooks in '.', if needed
 2) Train/finetune language models
